@@ -1,17 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h5 {
+    font-family: 'Playfair Display', serif;
+}
+
 body {
-    background-color: cornsilk;
+    background-color: white;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
 }
 
 h1 {
     text-align: center;
-    font-family: sans-serif;
     font-size: 4em;
-    font-weight: 700;
-    color: cadetblue;
+    font-weight: 200;
+    color: black;
 }
 
 h2 {
-    font-family: sans-serif;
     font-size: 2em;
     font-weight: 500;
     color: crimson;
@@ -21,9 +37,24 @@ h3 {
     text-align: center;
 }
 
+h3.color{
+    color: crimson;
+}
+
 .images {
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+h5 {
+    font-size: 2em;
+    font-weight: 200;
+}
+
+ul,
+ol {
+    margin-left: 80px;
+    padding: 40px;
 }
